@@ -19,9 +19,6 @@ module.exports = generators.Base.extend({
     },
 
     write() {
-        require('./files/_core-config.js').call(this)
-        require('./files/_package.js').call(this)
-
         const css = this.config.get('css')
         const compiler = this.config.get('compiler')
         const component = this.config.get('component')
