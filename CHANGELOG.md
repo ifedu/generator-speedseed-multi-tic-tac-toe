@@ -2,6 +2,9 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.2.0
+    - Require NodeJs >= 6.0.0
+
 ### v.0.1.2
     - Fix template AngularJS
 
@@ -13,6 +16,9 @@
     - Init
 
 ## Spanish
+### v.0.2.0
+    - Requiere NodeJs >= 6.0.0
+
 ### v.0.1.2
     - Arregla Plantilla AngularJS
 
