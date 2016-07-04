@@ -2,6 +2,9 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.3.0
+    - Add Unit Tests
+
 ### v.0.2.0
     - Require NodeJs >= 6.0.0
 
@@ -16,6 +19,9 @@
     - Init
 
 ## Spanish
+### v.0.3.0
+    - Añade Tests Unitarios
+
 ### v.0.2.0
     - Requiere NodeJs >= 6.0.0
 
