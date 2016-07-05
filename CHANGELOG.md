@@ -3,7 +3,7 @@
 
 ## English
 ### v.0.3.0
-    - Add Unit Tests
+    - Add Unit Tests with AngularJS
 
 ### v.0.2.0
     - Require NodeJs >= 6.0.0
