@@ -1,4 +1,4 @@
-### v.0.3.0
+### v.0.5.0
 
 ### Requeriments
 - NodeJS >= 6.0.0
@@ -8,7 +8,7 @@
 - [Spanish](#spanish)
 
 ### Changelog
-- [Changelog](https://github.com/ifedu/generator-speedseed/blob/master/CHANGELOG.md)
+- [Changelog](https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe/blob/master/CHANGELOG.md)
 
 ### English
     - Template Speedseed Multi Tic Tac Toe
