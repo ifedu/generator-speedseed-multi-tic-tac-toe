@@ -2,6 +2,12 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.5.0
+    - Fix: Polymer components
+
+### v.0.4.0
+    - Placed templates in the template folder
+
 ### v.0.3.0
     - Add Unit Tests with AngularJS
 
@@ -19,6 +25,12 @@
     - Init
 
 ## Spanish
+### v.0.5.0
+    - Arregla: Componentes de Polymer
+
+### v.0.4.0
+    - Deja las plantillas en la carpeta template
+
 ### v.0.3.0
     - Añade Tests Unitarios
 
