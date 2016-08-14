@@ -16,7 +16,7 @@
     },
 
     "dependencies": {
-        "speedseed": "^0.14.0",
+        "speedseed": "^0.15.0",
         "yeoman-generator": "^0.23.4"
     },
 
