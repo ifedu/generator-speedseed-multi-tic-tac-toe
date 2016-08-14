@@ -2,6 +2,9 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.6.0
+    - Updated to generator-speedseed v.0.20.0
+
 ### v.0.5.0
     - Fix: Polymer components
 
@@ -25,6 +28,9 @@
     - Init
 
 ## Spanish
+### v.0.6.0
+    - Actualizada a generator-speedseed v.0.20.0
+
 ### v.0.5.0
     - Arregla: Componentes de Polymer
 
