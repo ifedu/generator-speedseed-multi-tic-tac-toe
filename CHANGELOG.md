@@ -2,6 +2,9 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.6.0
+
+
 ### v.0.5.0
     - Fix: Polymer components
 
