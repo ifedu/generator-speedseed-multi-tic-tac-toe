@@ -1,0 +1,19 @@
+ss-box {
+    display: block;
+}
+
+ss-box .box {
+    align-items: center;
+    border: 1px solid #666;
+    cursor: pointer;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+}
+
+ss-box .box span {
+    font-family: arial;
+    font-size: 30px;
+}

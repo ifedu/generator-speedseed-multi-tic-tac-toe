@@ -19,7 +19,12 @@ module.exports = {
             { name: 'SaSS', value: 'sass' },
             { name: 'ScSS', value: 'scss' },
             { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' }
+            { name: 'Stylus', value: 'styl' },
+            { name: 'CSS', value: 'css' }
+        ],
+
+        html: [
+            { name: 'Jade', value: 'jade' }
         ]
     },
 
@@ -33,7 +38,12 @@ module.exports = {
             { name: 'SaSS', value: 'sass' },
             { name: 'ScSS', value: 'scss' },
             { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' }
+            { name: 'Stylus', value: 'styl' },
+            { name: 'CSS', value: 'css' }
+        ],
+
+        html: [
+            { name: 'Jade', value: 'jade' }
         ]
     },
 
@@ -48,7 +58,13 @@ module.exports = {
             { name: 'SaSS', value: 'sass' },
             { name: 'ScSS', value: 'scss' },
             { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' }
+            { name: 'Stylus', value: 'styl' },
+            { name: 'CSS', value: 'css' }
+        ],
+
+        html: [
+            { name: 'Jade', value: 'jade' },
+            { name: 'HTML', value: 'html' }
         ]
     },
 
@@ -63,7 +79,12 @@ module.exports = {
             { name: 'SaSS', value: 'sass' },
             { name: 'ScSS', value: 'scss' },
             { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' }
+            { name: 'Stylus', value: 'styl' },
+            { name: 'CSS', value: 'css' }
+        ],
+
+        html: [
+            { name: 'Jade', value: 'jade' }
         ]
     },
 
@@ -76,7 +97,12 @@ module.exports = {
             { name: 'SaSS', value: 'sass' },
             { name: 'ScSS', value: 'scss' },
             { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' }
+            { name: 'Stylus', value: 'styl' },
+            { name: 'CSS', value: 'css' }
+        ],
+
+        html: [
+            { name: 'Jade', value: 'jade' }
         ]
     },
 
@@ -91,7 +117,12 @@ module.exports = {
             { name: 'SaSS', value: 'sass' },
             { name: 'ScSS', value: 'scss' },
             { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' }
+            { name: 'Stylus', value: 'styl' },
+            { name: 'CSS', value: 'css' }
+        ],
+
+        html: [
+            { name: 'Jade', value: 'jade' }
         ]
     },
 

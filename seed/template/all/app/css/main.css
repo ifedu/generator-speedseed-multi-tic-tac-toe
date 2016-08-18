@@ -1,3 +1,5 @@
+{%= getRoutes('../components', '.css', true, `@import '$TPL$';`) %}
+
 * {
     box-sizing: border-box;
 }
@@ -7,5 +9,3 @@ body {
     height: 100%;
     margin: 0;
 }
-
-{%= getRoutes('../components', '.less', true, `@import '$TPL$';`) %}

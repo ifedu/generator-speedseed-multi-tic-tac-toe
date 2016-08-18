@@ -2,6 +2,12 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.7.0
+    - Add options HTML and CSS
+    - Updated to generator-speedseed v.0.21.0
+    - Updated to speedseed v.0.17.0
+    - Use umd.min for node_modules in system.js
+
 ### v.0.6.0
     - Updated to generator-speedseed v.0.20.0
 
@@ -28,6 +34,12 @@
     - Init
 
 ## Spanish
+### v.0.7.0
+    - Añade opciones HTML y CSS
+    - Actualiza a generator-speedseed v.0.21.0
+    - Actualiza a speedseed v.0.17.0
+    - Usa umd.min para node_modules en system.js
+
 ### v.0.6.0
     - Actualizada a generator-speedseed v.0.20.0
 
