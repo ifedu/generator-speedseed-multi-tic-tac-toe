@@ -2,6 +2,9 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.7.1
+    - Fix: speedseed v.0.17.0
+
 ### v.0.7.0
     - Add options HTML and CSS
     - Updated to generator-speedseed v.0.21.0
@@ -34,6 +37,9 @@
     - Init
 
 ## Spanish
+### v.0.7.1
+    - Arregla: speedseed v.0.17.0
+
 ### v.0.7.0
     - Añade opciones HTML y CSS
     - Actualiza a generator-speedseed v.0.21.0
