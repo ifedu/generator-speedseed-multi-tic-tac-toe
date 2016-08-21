@@ -1,5 +1,5 @@
 angular
-.module('<%= project %>')
+.module('multi')
 .component('ssBox', {
     template: '{%= include("box.html") %}',
 
@@ -11,6 +11,9 @@ angular
         self = this
 
         this.push = () ->
+            if self.xo != undefined
+                return
+
             self.ssTable.xo = if (self.ssTable.xo == 'O') then 'X' else 'O'
 
             self.xo = self.ssTable.xo

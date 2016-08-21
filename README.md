@@ -1,4 +1,4 @@
-### v.0.7.1
+### v.0.8.0
 
 ### Requeriments
 - NodeJS >= 6.0.0

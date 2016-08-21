@@ -1,0 +1,11 @@
+ss-table {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+ss-table .table {
+    height: 300px;
+    width: 300px;
+}

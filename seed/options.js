@@ -24,7 +24,8 @@ module.exports = {
         ],
 
         html: [
-            { name: 'Jade', value: 'jade' }
+            { name: 'Jade', value: 'jade' },
+            { name: 'HTML', value: 'html' }
         ]
     },
 
@@ -43,8 +44,9 @@ module.exports = {
         ],
 
         html: [
-            { name: 'Jade', value: 'jade' }
-        ]
+            { name: 'Jade', value: 'jade' },
+            { name: 'HTML', value: 'html' }
+        ],
     },
 
     jquery: {
@@ -84,7 +86,8 @@ module.exports = {
         ],
 
         html: [
-            { name: 'Jade', value: 'jade' }
+            { name: 'Jade', value: 'jade' },
+            { name: 'HTML', value: 'html' }
         ]
     },
 
@@ -102,7 +105,8 @@ module.exports = {
         ],
 
         html: [
-            { name: 'Jade', value: 'jade' }
+            { name: 'Jade', value: 'jade' },
+            { name: 'HTML', value: 'html' }
         ]
     },
 
@@ -122,7 +126,8 @@ module.exports = {
         ],
 
         html: [
-            { name: 'Jade', value: 'jade' }
+            { name: 'Jade', value: 'jade' },
+            { name: 'HTML', value: 'html' }
         ]
     },
 

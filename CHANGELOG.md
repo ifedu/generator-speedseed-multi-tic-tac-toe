@@ -2,6 +2,10 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.8.0
+    - Add images
+    - HTML and CSS options with AngularJS
+
 ### v.0.7.1
     - Fix: speedseed v.0.17.0
 
@@ -37,6 +41,10 @@
     - Init
 
 ## Spanish
+### v.0.8.0
+    - Añade imagenes
+    - Opciones HTML y CSS con AngularJS
+
 ### v.0.7.1
     - Arregla: speedseed v.0.17.0
 

@@ -6,21 +6,16 @@ module.exports = ($) => {
         version: '0.0.0',
         dependencies: {},
         devDependencies: {
-            'babel-preset-es2015': '^6.6.0',
-            'babel-plugin-transform-decorators-legacy': '^1.3.4',
             'browser-sync': '^2.12.8',
             'del': '^2.2.0',
             'express': '^4.14.0',
             'extend': '^3.0.0',
             'gulp': '^3.9.0',
-            'gulp-babel': '^6.1.2',
             'gulp-changed': '^1.2.1',
             'gulp-data': '^1.2.0',
             'gulp-filter': '^4.0.0',
             'gulp-htmlmin': '^2.0.0',
             'gulp-if': '^2.0.1',
-            'gulp-jade': '^1.0.1',
-            // 'gulp-jade-inheritance': '^0.5.5',
             'gulp-minify-inline': '^0.2.1',
             'gulp-modify-file': '^0.1.0',
             'gulp-plumber': '^1.1.0',
@@ -44,6 +39,9 @@ module.exports = ($) => {
 
     const getCompiler = {
         babeljs: {
+            'babel-preset-es2015': '^6.6.0',
+            'babel-plugin-transform-decorators-legacy': '^1.3.4',
+            'gulp-babel': '^6.1.2'
         },
 
         coffeescript: {
@@ -134,6 +132,15 @@ module.exports = ($) => {
         vanillajs: {}
     }
 
+    const getHtml = {
+        jade: {
+            'gulp-jade': '^1.0.1'
+            // 'gulp-jade-inheritance': '^0.5.5',
+        },
+
+        html: {}
+    }
+
     const getTest = {
         no: {},
 
@@ -179,6 +186,7 @@ module.exports = ($) => {
         packageJson.devDependencies,
         getCompiler[$.compiler],
         getCss[$.css],
+        getHtml[$.html],
         getFrameworkDev[$.framework],
         getTest[$.test]
     )
