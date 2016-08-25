@@ -1,10 +1,10 @@
 angular
-.module('<%= project %>')
+.module('<%= general.project %>')
 .component('ssBox', {
     template: `{%= include('box.html') %}`,
 
     require: {
-        'ssTable': '^ssTable',
+        'ssTable': '^ssTable'
     },
 
     controller() {

@@ -1,138 +1,69 @@
-module.exports = {
-    framework: [
-        { name: 'AngularJS', value: 'angularjs' },
-        { name: 'Angular2', value: 'angular2' },
-        { name: 'jQuery', value: 'jquery' },
-        { name: 'Polymer', value: 'polymer' },
-        { name: 'React', value: 'react' },
-        { name: 'VanillaJS', value: 'vanillajs' }
-    ],
+module.exports = [
+    {
+        message: 'Library / Framework?',
+        name: 'framework',
+        route: true,
 
-    angularjs: {
-        compiler: [
-            { name: 'BabelJS', value: 'babeljs' },
-            { name: 'CoffeeScript', value: 'coffeescript' },
-            { name: 'TypeScript', value: 'typescript' }
-        ],
+        choices: [
+            { name: 'AngularJS', value: 'angularjs' },
+            { name: 'Angular2', value: 'angular2' },
+            { name: 'jQuery', value: 'jquery' },
+            { name: 'Polymer', value: 'polymer' },
+            { name: 'React', value: 'react' },
+            { name: 'VanillaJS', value: 'vanillajs' }
+        ]
+    }, {
+        message: 'JavaScript Compiler?',
+        name: 'compiler',
 
-        css: [
+        choices: [
+            { name: 'BabelJS', value: 'babeljs', extra: 'js' },
+            { name: 'CoffeeScript', value: 'coffeescript', extra: 'coffee',
+                exclude: {
+                    framework: ['angular2', 'react']
+                }
+            },
+            { name: 'TypeScript', value: 'typescript', extra: 'ts',
+                exclude: {
+                    framework: ['react']
+                }
+            }
+        ]
+    }, {
+        message: 'CSS?',
+        name: 'css',
+
+        choices: [
             { name: 'SaSS', value: 'sass' },
             { name: 'ScSS', value: 'scss' },
             { name: 'Less', value: 'less' },
             { name: 'Stylus', value: 'styl' },
             { name: 'CSS', value: 'css' }
-        ],
+        ]
+    }, {
+        message: 'HTML?',
+        name: 'html',
 
-        html: [
+        choices: [
             { name: 'Jade', value: 'jade' },
             { name: 'HTML', value: 'html' }
         ]
-    },
+    }, {
+        message: 'Unit test?',
+        name: 'unit-test',
 
-    angular2: {
-        compiler: [
-            { name: 'BabelJS', value: 'babeljs' },
-            { name: 'TypeScript', value: 'typescript' }
-        ],
-
-        css: [
-            { name: 'SaSS', value: 'sass' },
-            { name: 'ScSS', value: 'scss' },
-            { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' },
-            { name: 'CSS', value: 'css' }
-        ],
-
-        html: [
-            { name: 'Jade', value: 'jade' },
-            { name: 'HTML', value: 'html' }
-        ],
-    },
-
-    jquery: {
-        compiler: [
-            { name: 'BabelJS', value: 'babeljs' },
-            { name: 'CoffeeScript', value: 'coffeescript' },
-            { name: 'TypeScript', value: 'typescript' }
-        ],
-
-        css: [
-            { name: 'SaSS', value: 'sass' },
-            { name: 'ScSS', value: 'scss' },
-            { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' },
-            { name: 'CSS', value: 'css' }
-        ],
-
-        html: [
-            { name: 'Jade', value: 'jade' },
-            { name: 'HTML', value: 'html' }
+        choices: [
+            { name: 'No', value: 'no' },
+            { name: 'Mocha', value: 'mocha',
+                exclude: {
+                    framework: ['angular2', 'jquery', 'polymer', 'react', 'vanillajs']
+                }
+            },
+            { name: 'Jasmine', value: 'jasmine',
+                exclude: {
+                    framework: ['angular2', 'jquery', 'polymer', 'react', 'vanillajs']
+                }
+            }
         ]
-    },
-
-    polymer: {
-        compiler: [
-            { name: 'BabelJS', value: 'babeljs' },
-            { name: 'CoffeeScript', value: 'coffeescript' },
-            { name: 'TypeScript', value: 'typescript' }
-        ],
-
-        css: [
-            { name: 'SaSS', value: 'sass' },
-            { name: 'ScSS', value: 'scss' },
-            { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' },
-            { name: 'CSS', value: 'css' }
-        ],
-
-        html: [
-            { name: 'Jade', value: 'jade' },
-            { name: 'HTML', value: 'html' }
-        ]
-    },
-
-    react: {
-        compiler: [
-            { name: 'BabelJS', value: 'babeljs' }
-        ],
-
-        css: [
-            { name: 'SaSS', value: 'sass' },
-            { name: 'ScSS', value: 'scss' },
-            { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' },
-            { name: 'CSS', value: 'css' }
-        ],
-
-        html: [
-            { name: 'Jade', value: 'jade' },
-            { name: 'HTML', value: 'html' }
-        ]
-    },
-
-    vanillajs: {
-        compiler: [
-            { name: 'BabelJS', value: 'babeljs' },
-            { name: 'CoffeeScript', value: 'coffeescript' },
-            { name: 'TypeScript', value: 'typescript' }
-        ],
-
-        css: [
-            { name: 'SaSS', value: 'sass' },
-            { name: 'ScSS', value: 'scss' },
-            { name: 'Less', value: 'less' },
-            { name: 'Stylus', value: 'styl' },
-            { name: 'CSS', value: 'css' }
-        ],
-
-        html: [
-            { name: 'Jade', value: 'jade' },
-            { name: 'HTML', value: 'html' }
-        ]
-    },
-
-    test: [
-        { name: 'Mocha', value: 'mocha' },
-        { name: 'Jasmine', value: 'jasmine' }
-    ]
-}
+    }
+]

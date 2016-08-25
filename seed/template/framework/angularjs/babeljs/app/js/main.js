@@ -1,4 +1,4 @@
 angular
-.module('<%= project %>', [])
+.module('<%= general.project %>', [])
 .controller('MainCtrl', function () {
 })

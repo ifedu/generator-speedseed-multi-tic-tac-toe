@@ -1,5 +1,5 @@
 angular
-.module('<%= project %>')
+.module('<%= general.project %>')
 .component('ssTable', {
     template: `{%= include('table.html') %}`,
 
