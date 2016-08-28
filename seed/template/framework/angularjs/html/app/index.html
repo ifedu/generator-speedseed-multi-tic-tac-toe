@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="es" ng-app="multi" ng-controller="MainCtrl as mainCtrl">
+<html lang="es" ng-app="<%= general.project %>" ng-controller="MainCtrl as mainCtrl">
 
 <head>
     <meta charset="utf-8">
-    <title>
-        <%= general.project %>
-    </title>
+    <title><%= general.project %></title>
     <meta content="" description="">
     <link href="css/main.css" rel="stylesheet">
 </head>
@@ -16,7 +14,7 @@
     <!--build:js js/all.js-->
     <script src="vendor/angular/angular.min.js"></script>
     <script src="js/main.js"></script>
-    {%= getRoutes('components', '<%= tpl['compiler-extra'] %>', false, `<script src="$TPL$"></script>`) %}
+    {%= getRoutes('components', '.<%= tpl["js-extra"] %>', false, `<script src="$TPL$"></script>`) %}
     <!-- endbuild-->
 </body>
 
