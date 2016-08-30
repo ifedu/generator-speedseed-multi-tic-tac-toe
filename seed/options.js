@@ -18,7 +18,9 @@ module.exports = [
                 name: 'js',
 
                 choices: [
-                    { name: 'BabelJS', value: 'babeljs', extra: 'js' },
+                    { name: 'BabelJS', value: 'babeljs', extra: 'js',
+                        exclude: { framework: ['angular2'] }
+                    },
                     { name: 'CoffeeScript', value: 'coffeescript', extra: 'coffee',
                         exclude: { framework: ['angular2', 'react'] }
                     },
