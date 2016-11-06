@@ -1,9 +1,9 @@
 {
-    "description": "Template generator-speedseed-multi-tic-tac-toe",
+    "description": "Template generator-speedseed-multi-tic-tac-toe for https://www.npmjs.com/package/generator-speedseed",
     "homepage": "https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe",
     "main": "generators/app/index.js",
     "name": "generator-speedseed-multi-tic-tac-toe",
-    "version": "0.8.0",
+    "version": "0.9.0",
 
     "keywords": [
         "yeoman-generator"
@@ -16,7 +16,7 @@
     },
 
     "dependencies": {
-        "speedseed": "^0.18.0",
+        "speedseed": "^0.19.0",
         "yeoman-generator": "^0.23.4"
     },
 
