@@ -49,6 +49,14 @@
     - Init
 
 ## Spanish
+### v.0.9.0
+    - Añade imágenes
+    - Añade que no se pueda pulsar 2 veces en el mismo sitio
+    - Actualizado a Angular2 v2.1.1
+    - Actualizado a Polymer v.1.7.0
+    - Actualizado a generator-speedseed v.0.22.0
+    - Actualizado a speedseed v.0.19.0
+
 ### v.0.8.0
     - Añade imagenes
     - Opciones HTML y CSS con AngularJS
