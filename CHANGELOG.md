@@ -2,6 +2,14 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.9.0
+    - Add images
+    - Add that it can not press 2 times on the same site
+    - Updated to Angular2 v2.1.1
+    - Updated to Polymer v.1.7.0
+    - Updated to generator-speedseed v.0.22.0
+    - Updated to speedseed v.0.19.0
+
 ### v.0.8.0
     - Add images
     - HTML and CSS options with AngularJS
