@@ -2,6 +2,9 @@
 - [Spanish](#spanish)
 
 ## English
+### v.0.9.1
+    - Fix images uppercase
+
 ### v.0.9.0
     - Add images
     - Add that it can not press 2 times on the same site
@@ -49,6 +52,9 @@
     - Init
 
 ## Spanish
+### v.0.9.1
+    - Arregla imágenes en mayúsculas
+
 ### v.0.9.0
     - Añade imágenes
     - Añade que no se pueda pulsar 2 veces en el mismo sitio
