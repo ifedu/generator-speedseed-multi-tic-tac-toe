@@ -1,0 +1,2 @@
+- Template for generator-speedseed
+- Template Speedseed Multi Tic Tac Toe
