@@ -1,3 +1,7 @@
+### v.0.11.0
+    - Actualizado a generator-speedseed v.0.24.0
+    - Actualizado a speedseed v.0.21.0
+
 ### v.0.10.0
     - Añadido Redux con React
     - Actualizado a generator-speedseed v.0.23.0
