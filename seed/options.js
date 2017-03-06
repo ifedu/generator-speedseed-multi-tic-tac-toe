@@ -7,6 +7,7 @@ module.exports = [{
     choices: [
         set('AngularJS', 'angularjs'),
         set('Angular2', 'angular2'),
+        set('Angular2 - Template Beta', 'angular2-beta'),
         set('jQuery', 'jquery'),
         set('Polymer', 'polymer'),
         set('React', 'react'),
@@ -18,8 +19,8 @@ module.exports = [{
         name: 'js',
 
         choices: [
-            set('BabelJS', 'babeljs', 'js', { framework: ['angular2'] }),
-            set('CoffeeScript', 'coffeescript', 'coffee', { framework: ['angular2', 'react'] }),
+            set('BabelJS', 'babeljs', 'js', { framework: ['angular2', 'angular2-beta'] }),
+            set('CoffeeScript', 'coffeescript', 'coffee', { framework: ['angular2-beta', 'react'] }),
             set('TypeScript', 'typescript', 'ts', { framework: ['react'] })
         ],
 
@@ -29,8 +30,8 @@ module.exports = [{
 
             choices: [
                 set('No', 'no'),
-                set('Mocha', 'mocha', undefined, { framework: ['angular2', 'jquery', 'polymer', 'react', 'vanillajs'] }),
-                set('Jasmine', 'jasmine', undefined, { framework: ['angular2', 'jquery', 'polymer', 'react', 'vanillajs'] })
+                set('Mocha', 'mocha'),
+                set('Jasmine', 'jasmine')
             ]
         }, {
             message: 'Redux?',
@@ -38,7 +39,7 @@ module.exports = [{
 
             choices: [
                 set('No', 'no'),
-                set('Redux', 'redux', undefined, { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'vanillajs'] })
+                set('Redux', 'redux', undefined, { framework: ['angularjs', 'angular2', 'angular2-beta', 'jquery', 'polymer', 'vanillajs'] })
             ]
         }]
     }, {
@@ -46,7 +47,7 @@ module.exports = [{
         name: 'html',
 
         choices: [
-            set('Jade', 'jade'),
+            set('Jade', 'jade', undefined, { framework: ['angular2-beta'] }),
             set('HTML', 'html')
         ]
     }]
@@ -55,10 +56,10 @@ module.exports = [{
     name: 'css',
 
     choices: [
-        set('SaSS', 'sass', 'sass'),
+        set('SaSS', 'sass', 'sass', { framework: ['angular2-beta'] }),
         set('ScSS', 'scss', 'scss'),
-        set('Less', 'less', 'less'),
-        set('Stylus', 'stylus', 'styl'),
-        set('CSS', 'css')
+        set('Less', 'less', 'less', { framework: ['angular2-beta'] }),
+        set('Stylus', 'stylus', 'styl', { framework: ['angular2-beta'] }),
+        set('CSS', 'css', { framework: ['angular2-beta'] })
     ]
 }]

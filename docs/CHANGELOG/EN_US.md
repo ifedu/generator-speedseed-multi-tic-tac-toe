@@ -1,3 +1,7 @@
+### v.0.12.0
+    - Updated to generator-speedseed v.0.26.0
+    - Add template Angular2-beta
+
 ### v.0.11.1
     - Changes in the README
 

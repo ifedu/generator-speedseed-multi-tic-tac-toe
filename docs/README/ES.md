@@ -1,2 +1,0 @@
-- Template para generator-speedseed
-- Plantilla Speedseed Tres En Raya (Gato)

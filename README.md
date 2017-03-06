@@ -1,4 +1,4 @@
-### v.0.11.1
+### v.0.12.0
 
 ## Multi-tic-tac-toe || Tres en raya || Gato
 
@@ -22,7 +22,7 @@
 
 ### Options
 - AngularJS **v.1.5.6**
-- Angular2 **v.2.1.1**
+- Angular2 **v.2.4.9**
 - jQuery **v.3.0.0**
 - Polymer **v.1.7.0**
 - React **v.15.1.0**

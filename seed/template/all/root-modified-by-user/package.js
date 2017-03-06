@@ -10,6 +10,7 @@ module.exports = ($) => {
         dependencies: {},
         devDependencies: {
             'browser-sync': '2.12.8',
+            'connect-history-api-fallback': '1.3.0',
             'del': '2.2.0',
             'express': '4.14.0',
             'extend': '3.0.0',
@@ -33,7 +34,7 @@ module.exports = ($) => {
             'lodash': '4.13.1',
             'plato': '1.5.0',
             'run-sequence': '1.1.1',
-            'webpack': '1.13.2',
+            'webpack': '2.2.1',
             'webpack-stream': '3.2.0'
         },
 
@@ -51,21 +52,39 @@ module.exports = ($) => {
             },
 
             angular2: {
-                '@angular/common': '2.1.1',
-                '@angular/compiler': '2.1.1',
-                '@angular/core': '2.1.1',
-                '@angular/forms': '2.1.1',
-                '@angular/http': '2.1.1',
-                '@angular/platform-browser': '2.1.1',
-                '@angular/platform-browser-dynamic': '2.1.1',
-                '@angular/router': '3.1.1',
-                '@angular/upgrade': '2.1.1',
-                'angular-in-memory-web-api': '0.1.13',
+                '@angular/common': '2.4.8',
+                '@angular/compiler': '2.4.8',
+                '@angular/core': '2.4.8',
+                '@angular/forms': '2.4.8',
+                '@angular/http': '2.4.8',
+                '@angular/platform-browser': '2.4.8',
+                '@angular/platform-browser-dynamic': '2.4.8',
+                '@angular/router': '3.4.8',
+                '@angular/upgrade': '2.4.8',
+                'angular-in-memory-web-api': '0.3.0',
                 'core-js': '2.4.1',
-                'reflect-metadata': '0.1.8',
-                'rxjs': '5.0.0-beta.12',
-                'systemjs': '0.19.39',
-                'zone.js': '0.6.25'
+                'reflect-metadata': '0.1.10',
+                'rxjs': '5.2.0',
+                'systemjs': '0.20.9',
+                'zone.js': '0.7.7'
+            },
+
+            'angular2-beta': {
+                '@angular/common': '2.4.9',
+                '@angular/compiler': '2.4.9',
+                '@angular/core': '2.4.9',
+                '@angular/forms': '2.4.9',
+                '@angular/http': '2.4.9',
+                '@angular/platform-browser': '2.4.9',
+                '@angular/platform-browser-dynamic': '2.4.9',
+                '@angular/router': '3.4.9',
+                '@angular/upgrade': '2.4.9',
+                'angular-in-memory-web-api': '0.3.0',
+                'core-js': '2.4.1',
+                'reflect-metadata': '0.1.10',
+                'rxjs': '5.2.0',
+                'systemjs': '0.20.9',
+                'zone.js': '0.7.7'
             },
 
             jquery: {
@@ -121,9 +140,9 @@ module.exports = ($) => {
             },
 
             typescript: {
-                'gulp-typescript': '2.13.6',
-                'ts-loader': '0.9.4',
-                'typings': "1.0.5"
+                'awesome-typescript-loader': '3.0.8',
+                'gulp-typescript': '3.1.5',
+                'typings': '1.0.5'
             }
         },
 
