@@ -1,6 +1,13 @@
+### v.0.13.0
+    - Actualizado a generator-speedseed v.0.27.0
+    - Actualizado a las últimas librerías
+    - Eliminada plantilla Angular2-beta
+    - Mejorado el rendimiento
+    - Multiples mejoras internas
+    
 ### v.0.12.0
     - Actualizado a generator-speedseed v.0.26.0
-    - Añadida Template Angular2-beta
+    - Añadida plantilla Angular2-beta
 
 ### v.0.11.1
     - Cambios en el README

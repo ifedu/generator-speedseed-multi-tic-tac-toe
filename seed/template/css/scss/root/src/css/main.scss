@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+<% if (framework !== 'angular2') { %>
+@import '../views/game/components/table/table';
+@import '../views/game/components/table/box/box';
+<% } %>
