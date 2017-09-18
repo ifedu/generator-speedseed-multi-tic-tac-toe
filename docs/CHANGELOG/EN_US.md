@@ -1,3 +1,6 @@
+### v.0.13.4
+    - Fix: import jquery in babeljs
+
 ### v.0.13.3
     - Fix: DevDependencies to Dependencies
     
