@@ -1,10 +1,11 @@
-### v.0.13.1 CORE
+### v.0.13.2 CORE
 ### v.0.2.0 UI
 
 ## Multi-tic-tac-toe || Tres en raya || Gato
 
 ### Requeriments
 - NodeJS >= 6.0.0
+- **npm i yo -g**
 - [generator-speedseed](https://www.npmjs.com/package/generator-speedseed)
 - **npm i generator-speedseed-multi-tic-tac-toe -g**
 
