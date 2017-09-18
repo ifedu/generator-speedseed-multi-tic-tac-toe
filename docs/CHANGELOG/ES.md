@@ -1,3 +1,6 @@
+### v.0.13.5
+    - Actualiza: speedseed a v.022.4
+
 ### v.0.13.4
     - Corrige: import jquery en babeljs
 

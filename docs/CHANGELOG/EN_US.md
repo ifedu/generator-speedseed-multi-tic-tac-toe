@@ -1,3 +1,6 @@
+### v.0.13.5
+    - Update: speedseed to v.022.4
+
 ### v.0.13.4
     - Fix: import jquery in babeljs
 

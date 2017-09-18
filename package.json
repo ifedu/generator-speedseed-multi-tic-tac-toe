@@ -3,7 +3,7 @@
     "homepage": "https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe",
     "main": "generators/app/index.js",
     "name": "generator-speedseed-multi-tic-tac-toe",
-    "version": "0.13.4",
+    "version": "0.13.5",
 
     "keywords": [
         "yeoman-generator"
@@ -18,7 +18,7 @@
     "dependencies": {
         "@types/node": "8.0.28",
         "@types/yeoman-generator": "1.0.3",
-        "speedseed": "0.22.3"
+        "speedseed": "0.22.4"
     },
 
     "engines" : {
