@@ -1,3 +1,12 @@
+### v.0.13.3
+    - Fix: DevDependencies to Dependencies
+    
+### v.0.13.2
+    - Fix: Add npm i yo -g in README
+
+### v.0.13.1
+    - Fix: TypeScript error to starter
+
 ### v.0.13.0
     - Deleted template Angular2-beta
     - Improved performance

@@ -1,3 +1,12 @@
+### v.0.13.3
+    - Corrige: DevDependencies a Dependencies
+    
+### v.0.13.2
+    - Corrige: Añade npm i yo -g en README
+
+### v.0.13.1
+    - Corrige: Error de TypeScript al iniciar
+
 ### v.0.13.0
     - Actualizado a generator-speedseed v.0.27.0
     - Actualizado a las últimas librerías
