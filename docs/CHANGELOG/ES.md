@@ -1,3 +1,6 @@
+### v.0.13.7
+    - Actualiza: speedseed a v.022.6
+
 ### v.0.13.6
     - Actualiza: speedseed a v.022.5
 
