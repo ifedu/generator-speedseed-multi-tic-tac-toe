@@ -1,3 +1,7 @@
+### v.0.14.0
+    - Actualiza: speedseed a v.022.8
+    - Añade soporte para crear aplicaciones con Electron
+
 ### v.0.13.8
     - Actualiza: speedseed a v.022.7
 

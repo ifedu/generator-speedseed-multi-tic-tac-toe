@@ -3,7 +3,7 @@ import { Router } from '@angular/router'
 
 @Component({
   selector: 'sd-config',
-  template: `{%= include('config.html') %}`
+  template: `/*<= include('config.html') >*/`
 })
 export class ConfigComponent {
     constructor(

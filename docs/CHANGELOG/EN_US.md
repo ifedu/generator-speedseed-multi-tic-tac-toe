@@ -1,3 +1,7 @@
+### v.0.14.0
+    - Update: speedseed a v.022.8
+    - Add support for building applications with Electron
+
 ### v.0.13.8
     - Update: speedseed a v.022.7
 

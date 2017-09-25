@@ -2,7 +2,9 @@
 <html lang="es">
 
 <head>
-    <base href="/">
+    /*< if (!args.electron) { >*/
+    <base href="./">
+    /*< } >*/
     <meta charset="utf-8">
     <title><%= project %></title>
     <meta content="" description="">
@@ -10,6 +12,10 @@
 </head>
 
 <body>
+    /*< if (args.electron && args.dev) { >*/
+    <script async='' id='__bs_script__' src='http://localhost:/*<= paths.server.portBuild >*//browser-sync/browser-sync-client.js?v=2.18.13'></script>
+    /*< } >*/
+
     <sd-app>Loading...</sd-app>
 
     <script src="vendor.js"></script>

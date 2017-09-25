@@ -9,6 +9,6 @@ body {
 }
 
 <% if (framework !== 'angular2') { %>
-{%= include('../views/game/components/table/table.css')%}
-{%= include('../views/game/components/table/box/box.css')%}
+/*<= include('../views/game/components/table/table.css')>*/
+/*<= include('../views/game/components/table/box/box.css')>*/
 <% } %>

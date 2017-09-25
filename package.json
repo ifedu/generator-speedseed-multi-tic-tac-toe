@@ -3,28 +3,23 @@
     "homepage": "https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe",
     "main": "generators/app/index.js",
     "name": "generator-speedseed-multi-tic-tac-toe",
-    "version": "0.13.8",
-
+    "version": "0.14.0",
     "keywords": [
         "yeoman-generator"
     ],
-
     "author": {
         "name": "Eduardo Pérez-Bermejo",
         "email": "ifedu@outlook.com",
         "url": "http://www.github.com/ifedu/generator-speedseed-multi-tic-tac-toe"
     },
-
     "dependencies": {
         "@types/node": "8.0.28",
         "@types/yeoman-generator": "1.0.3",
-        "speedseed": "0.22.7"
+        "speedseed": "0.22.8"
     },
-
-    "engines" : {
+    "engines": {
         "node": ">=6.0.0"
     },
-
     "repository": {
         "type": "git",
         "url": "https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe"

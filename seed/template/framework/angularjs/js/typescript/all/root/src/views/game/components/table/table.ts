@@ -6,7 +6,7 @@ export default class Table {
     constructor() {
         module('myproject')
         .component('ssTable', {
-            template: `{%= include('table.html') %}`,
+            template: `/*<= include('table.html') >*/`,
 
             controller() {
                 this.xo = ''

@@ -3,14 +3,14 @@ import { Router } from '@angular/router'
 
 @Component({
   selector: 'sd-score',
-  template: `{%= include('score.html') %}`
+  template: `/*<= include('score.html') >*/`
 })
 export class ScoreComponent {
     constructor(
         private router: Router
     ) {}
 
-    user(num) {
+    user(num: any) {
         this.router.navigate([`/user/${num}`])
     }
 }

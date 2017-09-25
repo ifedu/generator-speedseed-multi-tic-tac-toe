@@ -4,6 +4,15 @@ const { setOptions: set } = Helper
 
 export const options: any = [
 {
+    message: 'Electron?',
+    name: 'electron',
+
+    choices: [
+        set('No', 'no'),
+        set('Yes', 'yes'),
+    ],
+},
+{
     message: 'Library / Framework?',
     name: 'framework',
 

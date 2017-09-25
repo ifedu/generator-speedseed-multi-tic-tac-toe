@@ -3,7 +3,7 @@ import { Router } from '@angular/router'
 
 @Component({
   selector: 'sd-login',
-  template: `{%= include('login.html') %}`
+  template: `/*<= include('login.html') >*/`
 })
 export class LoginComponent {
     constructor(

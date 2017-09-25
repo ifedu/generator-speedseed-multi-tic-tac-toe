@@ -4,7 +4,7 @@ import { HttpModule } from '@angular/http'
 import { BrowserModule } from '@angular/platform-browser'
 
 import { AppComponent } from './app.component'
-import { AppRoutes } from './app.routes'
+import { AppRouter } from './app.router'
 
 import { ConfigModule } from './config/config.module'
 import { GameModule } from './game/game.module'
@@ -23,7 +23,7 @@ import { ScoreModule } from './score/score.module'
         CommonModule,
         HttpModule,
 
-        AppRoutes,
+        AppRouter,
         ConfigModule,
         GameModule,
         LoginModule,

@@ -63,7 +63,7 @@ export default {
 
         "http-proxy-middleware": "0.17.4",
         "lodash": "4.17.4",
-        "run-sequence": "2.1.0",
+        "run-sequence": "2.2.0",
         "ts-loader": "2.3.7",
         "ts-node": "3.3.0",
         "tsconfig-paths": "2.3.0",

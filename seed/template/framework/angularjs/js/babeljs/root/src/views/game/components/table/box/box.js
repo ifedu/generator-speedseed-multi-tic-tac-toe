@@ -4,7 +4,7 @@ export default class Box {
     constructor() {
         module('myproject')
         .component('ssBox', {
-            template: `{%= include('box.html') %}`,
+            template: `/*<= include('box.html') >*/`,
 
             require: {
                 'ssTable': '^ssTable',
