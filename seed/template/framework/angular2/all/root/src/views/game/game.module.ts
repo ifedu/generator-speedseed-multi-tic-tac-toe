@@ -2,19 +2,19 @@ import { CommonModule } from '@angular/common'
 import { FormsModule } from '@angular/forms'
 import { NgModule } from '@angular/core'
 
-import { GameComponent } from './game.component'
+import { GameView } from './game.view'
 import { GameRouter } from './game.router'
-import { SSTable } from './components/table/table'
-import { SSBox } from './components/table/box/box'
+import { SSTableComponent } from './components/table/table.component'
+import { SSBoxComponent } from './components/table/box/box.component'
 
 @NgModule({
     declarations: [
-        GameComponent,
-        SSTable,
-        SSBox,
+        GameView,
+        SSTableComponent,
+        SSBoxComponent,
     ],
 
-    exports: [GameComponent],
+    exports: [GameView],
 
     imports: [
         CommonModule,

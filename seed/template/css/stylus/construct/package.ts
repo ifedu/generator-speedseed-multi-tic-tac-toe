@@ -1,5 +1,6 @@
 export default {
     "devDependencies": {
-        "gulp-stylus": "2.6.0"
+        "stylus": "0.54.5",
+        "stylus-loader": "3.0.1",
     }
 }

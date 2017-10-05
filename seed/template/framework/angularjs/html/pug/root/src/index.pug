@@ -8,9 +8,9 @@ html(lang='es' ng-app='<%= project %>' ng-controller='MainCtrl as mainCtrl')
         link(href='css/main.css' rel='stylesheet')
 
     body
-        /*< if (args.electron && args.dev) { >*/
-        script(async='' id='__bs_script__' src='http://localhost:/*<= paths.server.portBuild >*//browser-sync/browser-sync-client.js?v=2.18.13')
-        /*< } >*/
+        //< if (args.electron && args.dev) { >//
+        script(async='' id='__bs_script__' src='//<= paths.electron.livereload >//')
+        //< } >//
 
         ss-table
 

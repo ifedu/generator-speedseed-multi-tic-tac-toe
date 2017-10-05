@@ -2,9 +2,9 @@
 <html lang="es">
 
 <head>
-    /*< if (!args.electron) { >*/
+    <!--< if (!args.electron) { >-->
     <base href="./">
-    /*< } >*/
+    <!--< } >-->
     <meta charset="utf-8">
     <title><%= project %></title>
     <meta content="" description="">
@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    /*< if (args.electron && args.dev) { >*/
-    <script async='' id='__bs_script__' src='http://localhost:/*<= paths.server.portBuild >*//browser-sync/browser-sync-client.js?v=2.18.13'></script>
-    /*< } >*/
+    <!--< if (args.electron && args.dev) { >-->
+    <script async='' id='__bs_script__' src='<!--<= paths.electron.livereload >-->'></script>
+    <!--< } >-->
 
     <sd-app>Loading...</sd-app>
 

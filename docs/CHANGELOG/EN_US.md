@@ -1,5 +1,14 @@
+### v.0.15.0
+    - Update: generator-speedseed v.0.29.0
+    - Update: speedseed a v.0.23.0
+    - Update: React to v.16.0.0.0
+    - Add MIT License
+    - Changed several packages from gulp to webpack
+    - Deleted the third set parameter in seed/options. ts
+
 ### v.0.14.0
-    - Update: speedseed a v.022.8
+    - Update: speedseed to v.022.8
+    - Update: angular to v.4.4.3
     - Add support for building applications with Electron
 
 ### v.0.13.8

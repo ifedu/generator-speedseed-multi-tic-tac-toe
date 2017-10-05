@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 
-import { GameComponent } from './game.component'
+import { GameView } from './game.view'
 
 const ROUTES: Routes = [{
-    component: GameComponent,
+    component: GameView,
     path: 'game',
     pathMatch: 'full'
 }]

@@ -1,16 +1,16 @@
 import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core'
 
-import { ScoreComponent } from './score.component'
+import { ScoreView } from './score.view'
 import { ScoreRouter } from './score.router'
 import { UserModule } from './user/user.module'
 
 @NgModule({
     declarations: [
-        ScoreComponent
+        ScoreView
     ],
 
-    exports: [ScoreComponent],
+    exports: [ScoreView],
 
     imports: [
         CommonModule,

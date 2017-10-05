@@ -16,5 +16,5 @@ render(
             <Table/>
         </Provider>
     </div>,
-    document.getElementsByTagName('ss-table')[0]
+    document.querySelector('ss-table')
 )

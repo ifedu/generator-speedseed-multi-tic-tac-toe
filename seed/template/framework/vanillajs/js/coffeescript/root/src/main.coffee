@@ -1,1 +1,1 @@
-import './views/game/components/table/box/box.coffee'
+import './views/game/components/table/box/box.component.coffee'

@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 
-import { UserComponent } from './user.component'
+import { UserView } from './user.view'
 
 const ROUTES: Routes = [{
-    component: UserComponent,
+    component: UserView,
     path: 'user/:num'
 }]
 

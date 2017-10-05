@@ -5,5 +5,5 @@ import Table from './views/game/components/table/table'
 
 render(
     <Table/>,
-    document.getElementsByTagName('ss-table')[0]
+    document.querySelector('ss-table')
 )

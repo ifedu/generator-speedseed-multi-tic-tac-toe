@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 
-import { ScoreComponent } from './score.component'
+import { ScoreView } from './score.view'
 
 const ROUTES: Routes = [{
-    component: ScoreComponent,
+    component: ScoreView,
     path: 'score',
     pathMatch: 'full'
 }]

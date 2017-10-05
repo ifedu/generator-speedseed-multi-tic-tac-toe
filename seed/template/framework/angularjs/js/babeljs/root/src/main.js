@@ -1,9 +1,9 @@
 import { module } from 'angular'
 
-import Table from './views/game/components/table/table'
+import TableComponent from './views/game/components/table/table.component'
 
 module('myproject', [])
 .controller('MainCtrl', function () {
 })
 
-new Table()
+new TableComponent()

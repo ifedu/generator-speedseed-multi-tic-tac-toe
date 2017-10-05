@@ -1,5 +1,5 @@
 export default {
     "devDependencies": {
-        "gulp-pug": "3.3.0",
+        "pug-html-loader": "1.1.5",
     }
 }

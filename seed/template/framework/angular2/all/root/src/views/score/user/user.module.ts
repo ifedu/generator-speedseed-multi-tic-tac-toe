@@ -2,13 +2,13 @@ import { CommonModule } from '@angular/common'
 import { FormsModule } from '@angular/forms'
 import { NgModule } from '@angular/core'
 
-import { UserComponent } from './user.component'
+import { UserView } from './user.view'
 import { UserRouter } from './user.router'
 
 @NgModule({
-    declarations: [UserComponent],
+    declarations: [UserView],
 
-    exports: [UserComponent],
+    exports: [UserView],
 
     imports: [
         CommonModule,

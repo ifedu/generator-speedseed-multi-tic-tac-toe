@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 
-import { ConfigComponent } from './config.component'
+import { ConfigView } from './config.view'
 
 const ROUTES: Routes = [{
-    component: ConfigComponent,
+    component: ConfigView,
     path: 'config',
     pathMatch: 'full'
 }]

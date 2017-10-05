@@ -1,4 +1,6 @@
-import { paths } from 'root/core/seed'
+import { mergeWith } from 'lodash'
+
+import { core, paths } from 'root/core/seed'
 
 const karmaConf = {
     options: {
@@ -12,9 +14,6 @@ const karmaConf = {
     }
 }
 
-const { frameworks, plugins } = paths.test.karma.options
+mergeWith(karmaConf.options, paths.test.karma.options, core.concatArr)
 
-frameworks.push(...karmaConf.options.frameworks)
-plugins.push(...karmaConf.options.plugins)
-
-export default paths.test.karma.options
+export default karmaConf.options

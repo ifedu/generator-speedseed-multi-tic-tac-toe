@@ -1,18 +1,28 @@
+### v.0.15.0
+    - Actualización: generator-speedseed v.0.29.0
+    - Actualización: speedseed a v.0.23.0
+    - Actualización: React a v.16.0.0
+    - Añadida Licencia MIT
+    - Cambiados varios paquetes de gulp a webpack
+    - Eliminado el tercer parámetro de set en seed/options.ts
+
 ### v.0.14.0
-    - Actualiza: speedseed a v.022.8
+    - Actualización: generator-speedseed v.0.28.0
+    - Actualización: speedseed a v.0.22.8
+    - Actualización: angular a v.4.4.3
     - Añade soporte para crear aplicaciones con Electron
 
 ### v.0.13.8
-    - Actualiza: speedseed a v.022.7
+    - Actualización: speedseed a v.022.7
 
 ### v.0.13.7
-    - Actualiza: speedseed a v.022.6
+    - Actualización: speedseed a v.022.6
 
 ### v.0.13.6
-    - Actualiza: speedseed a v.022.5
+    - Actualización: speedseed a v.022.5
 
 ### v.0.13.5
-    - Actualiza: speedseed a v.022.4
+    - Actualización: speedseed a v.022.4
 
 ### v.0.13.4
     - Corrige: import jquery en babeljs
@@ -27,27 +37,27 @@
     - Corrige: Error de TypeScript al iniciar
 
 ### v.0.13.0
-    - Actualizado a generator-speedseed v.0.27.0
-    - Actualizado a las últimas librerías
+    - Actualización: generator-speedseed v.0.27.0
+    - Actualización: las últimas librerías
     - Eliminada plantilla Angular2-beta
     - Mejorado el rendimiento
     - Multiples mejoras internas
     
 ### v.0.12.0
-    - Actualizado a generator-speedseed v.0.26.0
+    - Actualización: generator-speedseed v.0.26.0
     - Añadida plantilla Angular2-beta
 
 ### v.0.11.1
     - Cambios en el README
 
 ### v.0.11.0
-    - Actualizado a generator-speedseed v.0.24.0
-    - Actualizado a speedseed v.0.21.0
+    - Actualización: generator-speedseed v.0.24.0
+    - Actualización: speedseed v.0.21.0
 
 ### v.0.10.0
     - Añadido Redux con React
-    - Actualizado a generator-speedseed v.0.23.0
-    - Actualizado a speedseed v.0.20.0
+    - Actualización: generator-speedseed v.0.23.0
+    - Actualización: speedseed v.0.20.0
 
 ### v.0.9.1
     - Arregla imágenes en mayúsculas
@@ -55,10 +65,10 @@
 ### v.0.9.0
     - Añade imágenes
     - Añade que no se pueda pulsar 2 veces en el mismo sitio
-    - Actualizado a Angular2 v2.1.1
-    - Actualizado a Polymer v.1.7.0
-    - Actualizado a generator-speedseed v.0.22.0
-    - Actualizado a speedseed v.0.19.0
+    - Actualización: Angular2 v2.1.1
+    - Actualización: Polymer v.1.7.0
+    - Actualización: generator-speedseed v.0.22.0
+    - Actualización: speedseed v.0.19.0
 
 ### v.0.8.0
     - Añade imagenes
@@ -69,12 +79,12 @@
 
 ### v.0.7.0
     - Añade opciones HTML y CSS
-    - Actualiza a generator-speedseed v.0.21.0
-    - Actualiza a speedseed v.0.17.0
+    - Actualización a generator-speedseed v.0.21.0
+    - Actualización a speedseed v.0.17.0
     - Usa umd.min para node_modules en system.js
 
 ### v.0.6.0
-    - Actualizada a generator-speedseed v.0.20.0
+    - Actualizaciónda a generator-speedseed v.0.20.0
 
 ### v.0.5.0
     - Arregla: Componentes de Polymer
@@ -92,7 +102,7 @@
     - Arregla Plantilla AngularJS
 
 ### v.0.1.1
-    - Actualiza Angular2 a 2.0.0-rc.3 
+    - Actualización Angular2 a 2.0.0-rc.3 
 
 ### v.0.1.0
     - Angular 2.0.0-rc.2

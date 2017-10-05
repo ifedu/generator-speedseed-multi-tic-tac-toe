@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 
-import { LoginComponent } from './login.component'
+import { LoginView } from './login.view'
 
 const ROUTES: Routes = [{
-    component: LoginComponent,
+    component: LoginView,
     path: 'login',
     pathMatch: 'full'
 }, {

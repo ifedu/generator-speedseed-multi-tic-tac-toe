@@ -5,12 +5,12 @@ html(lang='es')
         title <%= project %>
         meta(content='' name='description')
         //- link(href='favicon.ico' rel='shortcut icon')
-        link(href='main.html' rel='import')
+        link(href='components.main.html' rel='import')
 
     body
-        /*< if (args.electron && args.dev) { >*/
-        script(async='' id='__bs_script__' src='http://localhost:/*<= paths.server.portBuild >*//browser-sync/browser-sync-client.js?v=2.18.13')
-        /*< } >*/
+        //< if (args.electron && args.dev) { >//
+        script(async='' id='__bs_script__' src='//<= paths.electron.livereload >//')
+        //< } >//
 
         ss-table
             .table

@@ -20,6 +20,4 @@ app.on('ready', () => {
     })
 
     win.loadURL(`file://${process.cwd()}/-build/index.html`)
-
-    // win.toggleDevTools()
 })

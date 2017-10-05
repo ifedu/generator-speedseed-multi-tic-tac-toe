@@ -1,5 +1,6 @@
 export default {
     "devDependencies": {
-        "gulp-less": "3.3.2"
+        "less": "2.7.2",
+        "less-loader": "4.0.5",
     }
 }

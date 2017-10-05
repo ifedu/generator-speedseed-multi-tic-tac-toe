@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core'
 import { HttpModule } from '@angular/http'
 import { BrowserModule } from '@angular/platform-browser'
 
-import { AppComponent } from './app.component'
+import { AppView } from './app.view'
 import { AppRouter } from './app.router'
 
 import { ConfigModule } from './config/config.module'
@@ -12,10 +12,10 @@ import { LoginModule } from './login/login.module'
 import { ScoreModule } from './score/score.module'
 
 @NgModule({
-    bootstrap: [AppComponent],
+    bootstrap: [AppView],
 
     declarations: [
-        AppComponent
+        AppView
     ],
 
     imports: [

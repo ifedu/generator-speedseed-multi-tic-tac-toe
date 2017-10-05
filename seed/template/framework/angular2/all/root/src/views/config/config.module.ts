@@ -2,13 +2,13 @@ import { CommonModule } from '@angular/common'
 import { FormsModule } from '@angular/forms'
 import { NgModule } from '@angular/core'
 
-import { ConfigComponent } from './config.component'
 import { ConfigRouter } from './config.router'
+import { ConfigView } from './config.view'
 
 @NgModule({
-    declarations: [ConfigComponent],
+    declarations: [ConfigView],
 
-    exports: [ConfigComponent],
+    exports: [ConfigView],
 
     imports: [
         CommonModule,

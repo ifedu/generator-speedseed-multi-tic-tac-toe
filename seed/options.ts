@@ -30,9 +30,9 @@ export const options: any = [
     name: 'js',
 
     choices: [
-        set('BabelJS (JS)', 'babeljs', 'js', { framework: ['angular2'] }),
-        set('CoffeeScript', 'coffeescript', 'coffee', { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'react'] }),
-        set('TypeScript', 'typescript', 'ts', { framework: ['react'] })
+        set('BabelJS (JS)', 'babeljs', { framework: ['angular2'] }),
+        set('CoffeeScript', 'coffeescript', { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'react'] }),
+        set('TypeScript', 'typescript', { framework: ['polymer', 'react'] })
     ],
 },
 {
@@ -40,7 +40,7 @@ export const options: any = [
     name: 'html',
 
     choices: [
-        set('Pug (Jade)', 'pug', 'pug', { framework: ['react'] }),
+        set('Pug (Jade)', 'pug', { framework: ['react'] }),
         set('HTML', 'html')
     ]
 },
@@ -49,10 +49,10 @@ export const options: any = [
     name: 'css',
 
     choices: [
-        set('SaSS', 'sass', 'sass'),
-        set('ScSS', 'scss', 'scss'),
-        set('Less', 'less', 'less'),
-        set('Stylus', 'stylus', 'styl'),
+        set('SaSS', 'sass'),
+        set('ScSS', 'scss'),
+        set('Less', 'less'),
+        set('Stylus', 'stylus'),
         set('CSS', 'css')
     ]
 },
@@ -72,7 +72,7 @@ export const options: any = [
 
     choices: [
         set('No', 'no'),
-        set('Redux', 'redux', undefined, { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'vanillajs'] })
+        set('Redux', 'redux', { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'vanillajs'] })
     ]
 },
 ]

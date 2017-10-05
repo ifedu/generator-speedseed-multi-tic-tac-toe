@@ -1,5 +1,6 @@
 export default {
     "devDependencies": {
-        "gulp-sass": "3.1.0"
+        "node-sass": "4.5.3",
+        "sass-loader": "6.0.6",
     }
 }

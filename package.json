@@ -1,25 +1,31 @@
 {
     "description": "Template generator-speedseed-multi-tic-tac-toe for https://www.npmjs.com/package/generator-speedseed",
     "homepage": "https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe",
+    "license": "MIT",
     "main": "generators/app/index.js",
     "name": "generator-speedseed-multi-tic-tac-toe",
-    "version": "0.14.0",
-    "keywords": [
-        "yeoman-generator"
-    ],
+    "version": "0.15.0",
+
     "author": {
         "name": "Eduardo Pérez-Bermejo",
         "email": "ifedu@outlook.com",
         "url": "http://www.github.com/ifedu/generator-speedseed-multi-tic-tac-toe"
     },
+
     "dependencies": {
-        "@types/node": "8.0.28",
+        "@types/node": "8.0.31",
         "@types/yeoman-generator": "1.0.3",
-        "speedseed": "0.22.8"
+        "speedseed": "0.23.0"
     },
+
     "engines": {
         "node": ">=6.0.0"
     },
+
+    "keywords": [
+        "yeoman-generator"
+    ],
+
     "repository": {
         "type": "git",
         "url": "https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe"
