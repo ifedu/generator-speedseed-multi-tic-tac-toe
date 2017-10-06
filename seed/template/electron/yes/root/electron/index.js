@@ -19,5 +19,5 @@ app.on('ready', () => {
         app.quit()
     })
 
-    win.loadURL(`file://${process.cwd()}/-build/index.html`)
+    win.loadURL(`file://${__dirname}/-build/index.html`)
 })

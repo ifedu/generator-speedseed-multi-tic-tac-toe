@@ -1,3 +1,7 @@
+### v.0.16.0
+    - Update: generator-speedseed v.0.30.0
+    - Buildings tasks of app with electron
+
 ### v.0.15.0
     - Update: generator-speedseed v.0.29.0
     - Update: speedseed a v.0.23.0
