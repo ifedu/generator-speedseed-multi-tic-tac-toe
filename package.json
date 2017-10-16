@@ -4,7 +4,7 @@
     "license": "MIT",
     "main": "generators/app/index.js",
     "name": "generator-speedseed-multi-tic-tac-toe",
-    "version": "0.16.0",
+    "version": "0.17.0",
 
     "author": {
         "name": "Eduardo Pérez-Bermejo",
@@ -13,9 +13,9 @@
     },
 
     "dependencies": {
-        "@types/node": "8.0.31",
+        "@types/node": "8.0.34",
         "@types/yeoman-generator": "1.0.3",
-        "speedseed": "0.23.0"
+        "speedseed": "0.24.0"
     },
 
     "engines": {

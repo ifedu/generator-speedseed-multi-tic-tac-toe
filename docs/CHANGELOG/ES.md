@@ -1,3 +1,12 @@
+### v.0.17.0
+    - Actualización: generator-speedseed v.0.31.0
+    - Actualización: speedseed v.0.24.0
+    - Actualización: angular a v.4.4.4
+    - Corrige: electron.packager
+    - Carpeta electron a electron-src
+    - Muestra la versión de la plantilla
+    - options.ts a options.js
+
 ### v.0.16.0
     - Actualización: generator-speedseed v.0.30.0
     - Tareas de construcción de app con electron

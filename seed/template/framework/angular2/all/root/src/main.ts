@@ -9,13 +9,6 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic'
 
 import { AppModule } from './views/app.module'
 
-/*< if (args.electron) { >*/
-/*[
-const os = require('os')
-console.log(os.cpus())
-]*/
-/*< } >*/
-
 /*< if (args.dist) { >*/
 enableProdMode()
 /*< } >*/

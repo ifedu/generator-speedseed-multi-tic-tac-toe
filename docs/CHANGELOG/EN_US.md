@@ -1,3 +1,12 @@
+### v.0.17.0
+    - Update: generator-speedseed v.0.31.0
+    - Update: speedseed v.0.24.0
+    - Update: angular a v.4.4.4
+    - Fix: electron.packager
+    - Folder electron to electron-src
+    - Show template version
+    - options.ts to options.js
+
 ### v.0.16.0
     - Update: generator-speedseed v.0.30.0
     - Buildings tasks of app with electron

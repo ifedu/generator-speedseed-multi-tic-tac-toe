@@ -1,8 +1,8 @@
-import { Helper } from 'speedseed'
+function set(name, value, exclude) {
+    return { name, value, exclude }
+}
 
-const { setOptions: set } = Helper
-
-export const options: any = [
+module.exports = [
 {
     message: 'Electron?',
     name: 'electron',

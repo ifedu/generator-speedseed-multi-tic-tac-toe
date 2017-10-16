@@ -1,4 +1,4 @@
-### v.0.16.0 CORE
+### v.0.17.0 CORE
 ### v.0.2.0 UI
 
 ## Multi-tic-tac-toe || Tres en raya || Gato
@@ -14,7 +14,7 @@
 - [Spanish](https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe/blob/master/docs/CHANGELOG/ES.md)
 
 ### Options
-- Electron
+- **Electron *v.1.7.9***
 - Framework/Lib
     - **AngularJS *v.1.6.6*** *v.0.1.0 UI*
         - JS
@@ -22,7 +22,7 @@
             - TypeScript 2.5
         - HTML
             - Pug (Jade)
-    - **Angular *v.4.4.3*** *v.0.2.0 UI*
+    - **Angular *v.4.4.4*** *v.0.2.0 UI*
         - JS
             - TypeScript 2.5
         - HTML

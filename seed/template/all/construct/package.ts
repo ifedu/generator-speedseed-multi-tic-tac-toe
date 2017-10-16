@@ -33,14 +33,13 @@ export default {
         "@types/gulp-htmlmin": "1.3.30",
         "@types/gulp-plumber": "0.0.31",
         "@types/lodash": "4.14.77",
-        "@types/node": "8.0.32",
+        "@types/node": "8.0.34",
         "@types/run-sequence": "0.0.29",
         "@types/webpack": "3.0.13",
 
         "browser-sync": "2.18.13",
         "connect-history-api-fallback": "1.3.0",
         "del": "3.0.0",
-        "glob-watcher": "4.0.0",
 
         "gulp": "3.9.1",
         "gulp-cssmin": "0.2.0",
@@ -65,7 +64,7 @@ export default {
         "raw-loader": "0.5.1",
         "style-loader": "0.19.0",
         "ts-loader": "2.3.7",
-        "webpack": "3.6.0",
+        "webpack": "3.7.1",
     },
 
     "engines" : {
