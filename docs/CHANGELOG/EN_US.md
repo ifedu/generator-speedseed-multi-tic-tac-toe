@@ -1,3 +1,7 @@
+### v.0.18.0
+    - Update: generator-speedseed v.0.32.0
+    - electron-src/index.js to electron-src/index.ts
+    
 ### v.0.17.0
     - Update: generator-speedseed v.0.31.0
     - Update: speedseed v.0.24.0

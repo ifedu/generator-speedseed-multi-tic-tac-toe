@@ -1,11 +1,11 @@
-const { app, BrowserWindow } = require('electron')
+import { app, BrowserWindow } from 'electron'
 
 app.on('before-quit', () => {
     console.log('Leaving...')
 })
 
 app.on('ready', () => {
-    let win = new BrowserWindow({
+    let win: any = new BrowserWindow({
         center: true,
         height: 800,
         maximizable: true,
