@@ -1,4 +1,4 @@
-### v.0.18.0 CORE
+### v.0.19.0 CORE
 ### v.0.2.0 UI
 
 ## Multi-tic-tac-toe || Tres en raya || Gato
@@ -22,7 +22,7 @@
             - TypeScript 2.5
         - HTML
             - Pug (Jade)
-    - **Angular *v.4.4.4*** *v.0.2.0 UI*
+    - **Angular *v.4.4.6*** *v.0.2.0 UI*
         - JS
             - TypeScript 2.5
         - HTML

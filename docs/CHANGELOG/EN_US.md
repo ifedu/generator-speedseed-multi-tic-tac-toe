@@ -1,3 +1,7 @@
+### v.0.19.0
+    - Actualización: generator-speedseed v.0.33.0
+    - Actualización: angular a v.4.4.6
+
 ### v.0.18.0
     - Update: generator-speedseed v.0.32.0
     - electron-src/index.js to electron-src/index.ts
