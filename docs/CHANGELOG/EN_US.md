@@ -1,6 +1,10 @@
+### v.0.20.0
+    - Update: speedseed v.0.26.0
+
 ### v.0.19.0
-    - Actualización: generator-speedseed v.0.33.0
-    - Actualización: angular a v.4.4.6
+    - Update: generator-speedseed v.0.33.0
+    - Update: speedseed v.0.25.0
+    - Update: angular v.4.4.6
 
 ### v.0.18.0
     - Update: generator-speedseed v.0.32.0
@@ -9,7 +13,7 @@
 ### v.0.17.0
     - Update: generator-speedseed v.0.31.0
     - Update: speedseed v.0.24.0
-    - Update: angular a v.4.4.4
+    - Update: angular v.4.4.4
     - Fix: electron.packager
     - Folder electron to electron-src
     - Show template version

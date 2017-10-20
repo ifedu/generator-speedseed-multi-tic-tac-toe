@@ -1,5 +1,9 @@
+### v.0.20.0
+    - Actualización: speedseed v.0.26.0
+
 ### v.0.19.0
     - Actualización: generator-speedseed v.0.33.0
+    - Actualización: speedseed v.0.25.0
     - Actualización: angular a v.4.4.6
 
 ### v.0.18.0
@@ -9,7 +13,7 @@
 ### v.0.17.0
     - Actualización: generator-speedseed v.0.31.0
     - Actualización: speedseed v.0.24.0
-    - Actualización: angular a v.4.4.4
+    - Actualización: angular v.4.4.4
     - Corrige: electron.packager
     - Carpeta electron a electron-src
     - Muestra la versión de la plantilla
