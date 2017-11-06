@@ -8,10 +8,12 @@ export default {
     "version": "0.0.0",
 
     "scripts": {
+        "start": "gulp build.dev --dev",
+
+        "preinstall": "yo speedseed:construct",
         "gulp": "gulp",
 
         "build": "gulp build",
-        "start": "gulp build.dev --dev",
         "build.dev": "gulp build.dev --dev",
         "build.dev.debug": "node --inspect --debug-brk ./node_modules/gulp/bin/gulp.js build.dev --dev",
         "build.dev.open": "gulp build.dev --dev --open",
@@ -29,13 +31,13 @@ export default {
         "@types/connect-history-api-fallback": "1.3.0",
         "@types/del": "3.0.0",
         "@types/extract-text-webpack-plugin": "3.0.0",
-        "@types/gulp": "4.0.4",
+        "@types/gulp": "3.8.34",
         "@types/gulp-htmlmin": "1.3.30",
         "@types/gulp-plumber": "0.0.31",
-        "@types/lodash": "4.14.77",
-        "@types/node": "8.0.45",
+        "@types/lodash": "4.14.82",
+        "@types/node": "8.0.47",
         "@types/run-sequence": "0.0.29",
-        "@types/webpack": "3.0.13",
+        "@types/webpack": "3.0.14",
 
         "browser-sync": "2.18.13",
         "connect-history-api-fallback": "1.4.0",
@@ -53,17 +55,17 @@ export default {
         "run-sequence": "2.2.0",
         "ts-node": "3.3.0",
         "tsconfig-paths": "2.3.0",
-        "tslint": "5.7.0",
-        "typescript": "2.5.3",
+        "tslint": "5.8.0",
+        "typescript": "2.6.1",
 
         "css-loader": "0.28.7",
-        "extract-text-webpack-plugin": "3.0.1",
+        "extract-text-webpack-plugin": "3.0.2",
         "html-loader": "0.5.1",
         "modify-file-loader": "1.0.0",
         "pug-html-loader": "1.1.5",
         "raw-loader": "0.5.1",
         "style-loader": "0.19.0",
-        "ts-loader": "2.3.7",
+        "ts-loader": "3.1.1",
         "webpack": "3.8.1",
     },
 

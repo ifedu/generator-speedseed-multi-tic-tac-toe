@@ -11,7 +11,7 @@ export default {
         "karma-mocha": "1.3.0",
         "karma-phantomjs-launcher": "1.0.4",
         "mocha": "4.0.1",
-        "phantomjs-prebuilt": "2.1.15"
+        "phantomjs-prebuilt": "2.1.16",
     },
 
     "scripts": {

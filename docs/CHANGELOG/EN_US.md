@@ -1,3 +1,11 @@
+### v.0.21.0
+    - Update: generator-speedseed v.0.35.0
+    - Update: speedseed v.0.27.0
+    - Update: angular a v.5.0.0
+    - Add preinstall script to package.json to simplify package.json creation
+    - Improvements in the creation of apps with electron
+    - Updated several libraries
+
 ### v.0.20.0
     - Update: speedseed v.0.26.0
 

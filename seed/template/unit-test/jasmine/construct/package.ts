@@ -1,6 +1,6 @@
 export default {
     "devDependencies": {
-        "@types/jasmine": "2.6.0",
+        "@types/jasmine": "2.6.2",
         "@types/karma": "1.7.1",
         "jasmine": "2.8.0",
         "karma": "1.7.1",
@@ -8,7 +8,7 @@ export default {
         "karma-coverage": "1.1.1",
         "karma-jasmine": "1.1.0",
         "karma-phantomjs-launcher": "1.0.4",
-        "phantomjs-prebuilt": "2.1.15"
+        "phantomjs-prebuilt": "2.1.16",
     },
 
     "scripts": {

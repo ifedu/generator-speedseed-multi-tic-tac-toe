@@ -1,4 +1,4 @@
-### v.0.20.0 CORE
+### v.0.21.0 CORE
 ### v.0.2.0 UI
 
 ## Multi-tic-tac-toe || Tres en raya || Gato
@@ -19,18 +19,18 @@
     - **AngularJS *v.1.6.6*** *v.0.1.0 UI*
         - JS
             - BabelJS 6
-            - TypeScript 2.5
+            - TypeScript 2.6
         - HTML
             - Pug (Jade)
-    - **Angular *v.4.4.6*** *v.0.2.0 UI*
+    - **Angular *v.5.0.0*** *v.0.2.0 UI*
         - JS
-            - TypeScript 2.5
+            - TypeScript 2.6
         - HTML
             - Pug (Jade)
     - **jQuery *v.3.2.1*** *v.0.1.0 UI*
         - JS
             - BabelJS 6
-            - TypeScript 2.5
+            - TypeScript 2.6
         - HTML
             - Pug (Jade)
     - **Polymer *v.1.7.0*** *v.0.1.0 UI*
@@ -46,7 +46,7 @@
         - JS
             - BabelJS 6
             - CoffeeScript 2
-            - TypeScript 2.5
+            - TypeScript 2.6
         - HTML
             - Pug (Jade)
 - CSS
