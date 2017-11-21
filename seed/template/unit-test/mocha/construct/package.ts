@@ -2,7 +2,7 @@ export default {
     "devDependencies": {
         "@types/chai": "4.0.4",
         "@types/mocha": "2.2.43",
-        "@types/karma": "1.7.1",
+        "@types/karma": "1.7.2",
         "chai": "4.1.2",
         "karma": "1.7.1",
         "karma-chai": "0.1.0",

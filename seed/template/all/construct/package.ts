@@ -28,19 +28,19 @@ export default {
 
     "devDependencies": {
         "@types/browser-sync": "0.0.37",
-        "@types/connect-history-api-fallback": "1.3.0",
+        "@types/connect-history-api-fallback": "1.3.1",
         "@types/del": "3.0.0",
         "@types/extract-text-webpack-plugin": "3.0.0",
-        "@types/gulp": "3.8.34",
-        "@types/gulp-htmlmin": "1.3.30",
-        "@types/gulp-plumber": "0.0.31",
-        "@types/lodash": "4.14.82",
-        "@types/node": "8.0.47",
-        "@types/run-sequence": "0.0.29",
-        "@types/webpack": "3.0.14",
+        "@types/gulp": "4.0.5",
+        "@types/gulp-htmlmin": "1.3.31",
+        "@types/gulp-plumber": "0.0.32",
+        "@types/lodash": "4.14.85",
+        "@types/node": "8.0.53",
+        "@types/run-sequence": "0.0.30",
+        "@types/webpack": "3.8.1",
 
         "browser-sync": "2.18.13",
-        "connect-history-api-fallback": "1.4.0",
+        "connect-history-api-fallback": "1.5.0",
         "del": "3.0.0",
 
         "gulp": "3.9.1",
@@ -54,7 +54,7 @@ export default {
         "lodash": "4.17.4",
         "run-sequence": "2.2.0",
         "ts-node": "3.3.0",
-        "tsconfig-paths": "2.3.0",
+        "tsconfig-paths": "2.4.0",
         "tslint": "5.8.0",
         "typescript": "2.6.1",
 

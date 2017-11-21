@@ -1,7 +1,7 @@
 export default {
     "devDependencies": {
-        "@types/jasmine": "2.6.2",
-        "@types/karma": "1.7.1",
+        "@types/jasmine": "2.8.2",
+        "@types/karma": "1.7.2",
         "jasmine": "2.8.0",
         "karma": "1.7.1",
         "karma-chrome-launcher": "2.2.0",

@@ -32,8 +32,6 @@ class App {
         })
 
         win.loadURL(`file://${__dirname}/-build/index.html`)
-
-        // require('devtron').install()
     }
 }
 

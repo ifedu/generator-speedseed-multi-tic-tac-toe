@@ -1,8 +1,13 @@
+### v.0.22.0
+    - Actualización: generator-speedseed v.0.36.0
+    - Actualización: librerías
+    - Corrige: error con ts types en electron
+
 ### v.0.21.0
     - Actualización: generator-speedseed v.0.35.0
     - Actualización: speedseed v.0.27.0
     - Actualización: angular a v.5.0.0
-    - Actualizadas varias librerías
+    - Actualización: librerías
     - Añade script preinstall a package.json para simplificar la creación de package.json
     - Mejoras en la creación de apps con electron
 

@@ -2,7 +2,7 @@ export default {
     "devDependencies": {
         "@types/electron-packager": "8.7.3",
         "electron": "1.7.9",
-        "electron-packager": "9.1.0"
+        "electron-packager": "10.1.0",
     },
     "scripts": {
         "postinstall": "cd electron-src && npm i",

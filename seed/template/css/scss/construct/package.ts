@@ -1,6 +1,6 @@
 export default {
     "devDependencies": {
-        "node-sass": "4.5.3",
+        "node-sass": "4.7.1",
         "sass-loader": "6.0.6",
     }
 }

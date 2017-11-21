@@ -1,4 +1,4 @@
-### v.0.21.0 CORE
+### v.0.22.0 CORE
 ### v.0.2.0 UI
 
 ## Multi-tic-tac-toe || Tres en raya || Gato
