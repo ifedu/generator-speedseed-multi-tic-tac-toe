@@ -8,10 +8,10 @@ export default {
     "version": "0.0.0",
 
     "scripts": {
-        "start": "gulp build.dev --dev",
-
+        "i": "npm install",
         "preinstall": "yo speedseed:construct",
-        "gulp": "gulp",
+        "update": "yo speedseed --update=true",
+        "start": "gulp build.dev --dev",
 
         "build": "gulp build",
         "build.dev": "gulp build.dev --dev",
@@ -22,6 +22,8 @@ export default {
         "dist.dev": "gulp build.dist.dev --dev --dist",
         "dist.dev.debug": "node --inspect --debug-brk ./node_modules/gulp/bin/gulp.js build.dist.dev --dev",
         "dist.dev.open": "gulp build.dist.dev --dev --dist --open",
+
+        "gulp": "gulp",
     },
 
     "dependencies": {},
