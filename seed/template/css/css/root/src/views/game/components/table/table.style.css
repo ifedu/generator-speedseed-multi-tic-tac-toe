@@ -1,4 +1,4 @@
-<%= (framework !== 'angular2') ?
+<%= (framework !== 'angular2' && framework !== 'webcomponents') ?
 'ss-table' : ':host' %> {
     align-items: center;
     display: flex;
@@ -6,14 +6,14 @@
     justify-content: center;
 }
 
-<%= (framework !== 'angular2') ?
+<%= (framework !== 'angular2' && framework !== 'webcomponents') ?
 'ss-table' : ':host' %>
 .table {
     height: 300px;
     width: 300px;
 }
 
-<%= (framework !== 'angular2') ?
+<%= (framework !== 'angular2' && framework !== 'webcomponents') ?
 'ss-table' : ':host' %>
 .line {
     display: flex;

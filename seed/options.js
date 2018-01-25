@@ -20,9 +20,11 @@ module.exports = [
         set('AngularJS', 'angularjs'),
         set('Angular2', 'angular2'),
         set('jQuery', 'jquery'),
-        set('Polymer', 'polymer'),
+        set('Polymer2', 'polymer2'),
+        set('Polymer3', 'polymer'),
         set('React', 'react'),
-        set('VanillaJS', 'vanillajs')
+        set('VanillaJS', 'vanillajs'),
+        set('WebComponents', 'webcomponents')
     ],
 },
 {
@@ -31,8 +33,8 @@ module.exports = [
 
     choices: [
         set('BabelJS (JS)', 'babeljs', { framework: ['angular2'] }),
-        set('CoffeeScript', 'coffeescript', { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'react'] }),
-        set('TypeScript', 'typescript', { framework: ['polymer', 'react'] })
+        set('CoffeeScript', 'coffeescript', { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'polymer2', 'react', 'webcomponents'] }),
+        set('TypeScript', 'typescript', { framework: ['polymer', 'polymer2', 'react', 'webcomponents'] })
     ],
 },
 {
@@ -40,7 +42,7 @@ module.exports = [
     name: 'html',
 
     choices: [
-        set('Pug (Jade)', 'pug', { framework: ['react'] }),
+        set('Pug (Jade)', 'pug', { framework: ['polymer', 'polymer2', 'react', 'webcomponents'] }),
         set('HTML', 'html')
     ]
 },
@@ -49,10 +51,10 @@ module.exports = [
     name: 'css',
 
     choices: [
-        set('SaSS', 'sass'),
-        set('ScSS', 'scss'),
-        set('Less', 'less'),
-        set('Stylus', 'stylus'),
+        set('SaSS', 'sass', { framework: ['polymer2'] }),
+        set('ScSS', 'scss', { framework: ['polymer2'] }),
+        set('Less', 'less', { framework: ['polymer2'] }),
+        set('Stylus', 'stylus', { framework: ['polymer2'] }),
         set('CSS', 'css')
     ]
 },
@@ -72,7 +74,7 @@ module.exports = [
 
     choices: [
         set('No', 'no'),
-        set('Redux', 'redux', { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'vanillajs'] })
+        set('Redux', 'redux', { framework: ['angularjs', 'angular2', 'jquery', 'polymer', 'polymer2', 'vanillajs', 'webcomponents'] })
     ]
 },
 ]

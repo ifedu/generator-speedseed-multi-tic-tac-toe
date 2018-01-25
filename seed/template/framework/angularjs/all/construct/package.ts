@@ -1,9 +1,9 @@
 export default {
     "dependencies": {
-        "angular": "1.6.6"
+        "angular": "1.6.8"
     },
 
     "devDependencies": {
-        "@types/angular": "1.6.32",
+        "@types/angular": "1.6.41",
     }
 }

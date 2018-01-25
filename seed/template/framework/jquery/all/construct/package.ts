@@ -1,9 +1,9 @@
 export default {
     "dependencies": {
-        "jquery": "3.2.1"
+        "jquery": "3.3.1"
     },
 
     "devDependencies": {
-        "@types/jquery": "3.2.13",
+        "@types/jquery": "3.3.0",
     }
 }

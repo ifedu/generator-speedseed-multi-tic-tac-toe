@@ -1,9 +1,9 @@
-<%= (framework !== 'angular2') ?
+<%= (framework !== 'angular2' && framework !== 'webcomponents') ?
 'ss-box' : ':host' %> {
     display: block;
 }
 
-<%= (framework !== 'angular2') ?
+<%= (framework !== 'angular2' && framework !== 'webcomponents') ?
 'ss-box' : ':host' %>
 .box {
     align-items: center;

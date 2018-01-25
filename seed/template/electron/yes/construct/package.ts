@@ -1,8 +1,8 @@
 export default {
     "devDependencies": {
         "@types/electron-packager": "8.7.3",
-        "electron": "1.7.9",
-        "electron-packager": "10.1.0",
+        "electron": "1.7.11",
+        "electron-packager": "10.1.1",
     },
     "scripts": {
         "postinstall": "cd electron-src && npm i",

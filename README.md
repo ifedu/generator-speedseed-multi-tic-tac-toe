@@ -1,4 +1,4 @@
-### v.0.22.1 CORE
+### v.0.23.0 CORE
 ### v.0.2.0 UI
 
 ## Multi-tic-tac-toe || Tres en raya || Gato
@@ -14,31 +14,32 @@
 - [Spanish](https://github.com/ifedu/generator-speedseed-multi-tic-tac-toe/blob/master/docs/CHANGELOG/ES.md)
 
 ### Options
-- **Electron *v.1.7.9***
+- **Electron *v.1.7.11***
 - Framework/Lib
-    - **AngularJS *v.1.6.6*** *v.0.1.0 UI*
+    - **AngularJS *v.1.6.8*** *v.0.1.0 UI*
         - JS
             - BabelJS 6
             - TypeScript 2.6
         - HTML
             - Pug (Jade)
-    - **Angular *v.5.0.3*** *v.0.2.0 UI*
+    - **Angular *v.5.2.2*** *v.0.2.0 UI*
         - JS
             - TypeScript 2.6
         - HTML
             - Pug (Jade)
-    - **jQuery *v.3.2.1*** *v.0.1.0 UI*
+    - **jQuery *v.3.3.1*** *v.0.1.0 UI*
         - JS
             - BabelJS 6
             - TypeScript 2.6
         - HTML
             - Pug (Jade)
-    - **Polymer *v.1.7.0*** *v.0.1.0 UI*
+    - **Polymer *v.2.3.1*** *v.0.1.0 UI*
         - JS
             - BabelJS 6
-        - HTML
-            - Pug (Jade)
-    - **React *v.16.0.0*** *v.0.1.0 UI*
+    - **Polymer *v.3.0.0-pre.6*** *v.0.1.0 UI*
+        - JS
+            - BabelJS 6
+    - **React *v.16.2.0*** *v.0.1.0 UI*
         - JS
             - BabelJS 6
         - Redux
@@ -49,6 +50,9 @@
             - TypeScript 2.6
         - HTML
             - Pug (Jade)
+    - **WebComponents** *v.0.1.0 UI*
+        - JS
+            - BabelJS 6
 - CSS
     - LeSS
     - Sass

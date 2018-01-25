@@ -1,3 +1,6 @@
+### v.0.23.0
+    - Update: generator-speedseed v.0.37.0
+
 ### v.0.22.1
     - Actualización: generator-speedseed v.0.36.1
     - Añade npm run update y npm run i

@@ -1,16 +1,16 @@
 export default {
     "devDependencies": {
-        "@types/chai": "4.0.4",
-        "@types/mocha": "2.2.43",
-        "@types/karma": "1.7.2",
+        "@types/chai": "4.1.2",
+        "@types/mocha": "2.2.47",
+        "@types/karma": "1.7.3",
         "chai": "4.1.2",
-        "karma": "1.7.1",
+        "karma": "2.0.0",
         "karma-chai": "0.1.0",
         "karma-chrome-launcher": "2.2.0",
         "karma-coverage": "1.1.1",
         "karma-mocha": "1.3.0",
         "karma-phantomjs-launcher": "1.0.4",
-        "mocha": "4.0.1",
+        "mocha": "5.0.0",
         "phantomjs-prebuilt": "2.1.16",
     },
 
