@@ -1,6 +1,6 @@
 export default {
     "devDependencies": {
-        "less": "2.7.3",
-        "less-loader": "4.0.5",
+        "less": "3.8.1",
+        "less-loader": "4.1.0",
     }
 }

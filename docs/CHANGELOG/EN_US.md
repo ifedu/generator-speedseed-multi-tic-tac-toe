@@ -1,3 +1,7 @@
+### v.0.24.0
+    - Update: generator-speedseed v.0.38.0
+    - Fix: template AngularJS with TypeScript
+
 ### v.0.23.0
     - Update: generator-speedseed v.0.37.0
 

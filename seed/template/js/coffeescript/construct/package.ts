@@ -1,6 +1,6 @@
 export default {
     "devDependencies": {
-        "coffeescript": "2.0.0-beta3",
+        "coffeescript": "2.3.1",
         "coffeescript-loader": "0.0.11",
     }
 }
